@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+      color: #333;
+      background-color: white;
+      }
+
+    .hero {
+      background-image: url('https://atsgestion.net/wp-content/uploads/2018/07/Energ%C3%ADa-solar-la-alternativa-contra-el-cambio-clim%C3%A1tico.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+      color: white;
+    } 
+
+    .hero::before { /* oscurece la imagen para que el texto sea más visible */
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4); 
+    }
+
+    .hero .content {
+        position: relative;
+    }
+    
+    .hero h1 {
+        font-size: 80px;
+        margin-bottom: 30px;
+    }
+
+    .hero ul {
+      max-width: 80%;
+      padding: 60px;
+      border: 50px;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+   
+    .Main {
+        padding: 300px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-top: 0;
+        font-size: larger;
+    }
+
+  .Ventajas{
+    background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), /* gradient layer with transparency */
+    url('https://media.istockphoto.com/id/1496849272/es/v%C3%ADdeo/casas-con-paneles-solares.jpg?s=640x640&k=20&c=zfd4_Jg1D-MRVhWUws-d25kuEhPMmeQ8iWIa_jAJd6w='); /* your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* so text is readable */
+    padding: 50px;
+    font-style: oblique;
+  }
+
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-between;
+        padding-top: 50px;
+        margin-top: 0;
+     }
+
+    .contenedor h1 {
+        text-align: center;
+        color: #f39c12;
+        
+    }
+
+    .columna {
+        flex: 1;
+        min-width: 300px;
+        padding: 50px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+     ul {
+      margin-top: 10px;
+      padding-left: 20px;
+      font-size: large;
+
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .FFact {
+      font-size: 2em;
+      margin-top: 20px;
+      text-align: center;
+      color: linear-gradient(to right, #4220a0, blue);
+    }
