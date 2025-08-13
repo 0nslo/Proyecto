@@ -20,20 +20,28 @@
         </nav>
       </div>
     </section>
-    <div class="dashboard">
-      <h2>Gráficos</h2>
-      <a href="graficobarra.html"
-        ><button class="boton graficos"><span class="button_top">Ver grafico de barra</span></button></a
-      >
-      <a href="graficotorta.html"
-        ><button class="boton graficos"><span class="button_top">Ver grafico de torta</span></button></a
-      >
-    </div>
-    <div class="barra">
-      <canvas id="myChart-barra" ></canvas>
-    </div>
+
+    <section id="graphics">
+      <div class="dashboard" class="content-graphs">
+        <h2>Gráficos</h2>
+
+          <a href="graficobarra.html">
+            <button class="boton graficos"><span class="button_top">Ver grafico de barra</span></button>
+          </a>
+
+          <a href="graficotorta.html">
+            <button class="boton graficos"><span class="button_top">Ver grafico de torta</span></button>
+          </a>
+      </div>
+
+      <div class="barra">
+        <canvas id="myChart-barra" ></canvas>
+      </div>
+
     <footer>© 2025 Energías Renovables | Hecho con ☀️</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <script src="../graficos/JS/barra.js"></script>
     
   </body>
