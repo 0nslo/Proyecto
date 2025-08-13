@@ -4,17 +4,19 @@ function grafico_torta(){
             type: "pie",
             data: {
                 labels: [
-    'Red',
-    'Blue',
-    'Yellow'
+    'Otras',
+    'Solar',
+    'Eolica',
+    'Hidroelectrica',
   ],
   datasets: [{
-    label: 'My First Dataset',
-    data: [300, 50, 100],
+    label: 'Energias Renovables en Argentina en TWh para el año 2021',
+    data: [2.1038966, 2.1955633, 12.937551, 19.597536],
     backgroundColor: [
       'rgb(255, 99, 132)',
       'rgb(54, 162, 235)',
-      'rgb(255, 205, 86)'
+      'rgb(255, 205, 86)',
+      'rgba(1, 225, 255, 1)'
     ],
     hoverOffset: 4
   }]

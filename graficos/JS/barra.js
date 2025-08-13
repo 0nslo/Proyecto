@@ -3,11 +3,11 @@ function grafico_barra(){
         new Chart(ctx, {
             type: "bar",
             data: {
-            labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            labels: ["Geo Biomass Other - TWh", "Solar Generation - TWh", "Wind Generation - TWh", "Hydro Generation - TWh"],
             datasets: [
                 {
-                label: "# of Votes",
-                data: [12, 19, 3, 5, 2, 1],
+                label: "Generacion de energia en Argentina medido en TWh para el año 2021",
+                data: [2.1038966, 19, 2.1955633, 12.937551, 19.597536, ],
                 borderWidth: 3,
                 },
             ],
