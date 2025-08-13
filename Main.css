@@ -1,144 +1,155 @@
 body {
-    margin: 0;
-    font-family: 'Trebuchet MS', sans-serif;
-      color: #333;
-      background-color: white;
-      }
-
-    .hero {
-      background-image: url('https://atsgestion.net/wp-content/uploads/2018/07/Energ%C3%ADa-solar-la-alternativa-contra-el-cambio-clim%C3%A1tico.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 600px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      text-align: center;
-      color: white;
-    } 
-
-    .hero::before { /* oscurece la imagen para que el texto sea más visible */
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(0, 0, 0, 0.4); 
-    }
-
-    .hero .content {
-        position: relative;
-    }
-    
-    .hero h1 {
-        font-size: 80px;
-        margin-bottom: 30px;
-    }
-
-    .hero ul {
-      max-width: 80%;
-      padding: 60px;
-      border: 50px;
-      margin-top: 50px;
-      display: flex;
-      justify-content: center;
-      gap: 100px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 20px;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-   
-    .Main {
-        padding: 300px;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        margin-top: 0;
-        font-size: larger;
-    }
-
-  .Ventajas{
-    background-image: 
-    linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), /* gradient layer with transparency */
-    url('https://media.istockphoto.com/id/1496849272/es/v%C3%ADdeo/casas-con-paneles-solares.jpg?s=640x640&k=20&c=zfd4_Jg1D-MRVhWUws-d25kuEhPMmeQ8iWIa_jAJd6w='); /* your background image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white; /* so text is readable */
-    padding: 50px;
-    font-style: oblique;
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #333;
+  background-color: white;
   }
 
-    .contenedor {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 40px;
-        justify-content: space-between;
-        padding-top: 50px;
-        margin-top: 0;
-     }
 
-    .contenedor h1 {
-        text-align: center;
-        color: #f39c12;
-        
-    }
+/*Header, título con imágen y navegación*/
+.hero {
+  background-image: url('https://atsgestion.net/wp-content/uploads/2018/07/Energ%C3%ADa-solar-la-alternativa-contra-el-cambio-clim%C3%A1tico.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: white;
+} 
 
-    .columna {
-        flex: 1;
-        min-width: 300px;
-        padding: 50px;
-    }
+.hero::before { 
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); 
+}
 
-    img {
-      width: 100%;
-      border-radius: 8px;
-      text-align: center;
+.hero .content {
+  position: relative;
+}
+    
+.hero h1 {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.hero ul {
+  max-width: 80%;
+  padding: 60px;
+  border: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.hero ul li a {
+  color: white;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+
+/*Main*/
+.Main {
+  padding: 5%; 
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 0;
+  font-size: 1.1rem; 
+  max-width: 1000px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Ventajas{
+  background-image: 
+  linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), /* gradient layer with transparency */
+  url('https://media.istockphoto.com/id/1496849272/es/v%C3%ADdeo/casas-con-paneles-solares.jpg?s=640x640&k=20&c=zfd4_Jg1D-MRVhWUws-d25kuEhPMmeQ8iWIa_jAJd6w='); /* your background image */
+  background-size: cover;
+  background-position: center;
+   background-repeat: no-repeat;
+   color: white; /* so text is readable */
+   padding: 50px;
+  font-style: oblique;
+}
+
+
+/*Side by side view*/
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+.contenedor h1 {
+  text-align: center;
+  color: #f39c12; 
+}
+
+.columna {
+  flex: 1;
+  min-width: 300px;
+  padding: 0 50px ;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
       
-    }
+}
 
-     ul {
-      margin-top: 10px;
-      padding-left: 20px;
-      font-size: large;
-    }
+li {
+  margin-bottom: 10px;
+}
 
-    li {
-      margin-bottom: 10px;
-    }
 
-    footer {
-      margin-top: 30px;
-      margin-bottom: 30px;
+/*footer*/
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+ }
+
+
+ /*Carrusel*/
+  .FFacts {
       text-align: center;
-      font-size: 0.9em;
-      color: #777;
-    }
-
-    .FFacts {
-      text-align: center;
-      font-size: 40px;
-      padding: 50px;
+      font-size: 35px;
+      padding: 40px;
+      padding-bottom: 0;
+      margin: 0;
     }
 
     .slider-box {
-     width: 1280px;
-     height: auto;
+     width: 100%;
+     max-width: 1280px;
      margin: 50px auto 0;
      overflow: hidden;
     } 
 
     .slider-box ul {
-      text-align: center;
       margin: 0;
       padding: 0;
       width: 300%;
+      width: calc(100% * 3);
       display: flex;
       animation: slide 15s infinite alternate ease-in-out;
     }
@@ -161,25 +172,27 @@ body {
 
     .texto {
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       color: white;
       padding: 15px;
       top: 250px;
-      font-size: 44px;
+      font-size: 34px;
       text-align: center;
       max-width: fit-content;
       border-radius: 8px;
-
+      z-index: 2;
     }
 
     .slider-box img {
       width: 100%;
-      height: 500px;
+      height: 400px;
       object-fit: cover;
-      border-radius: 8px;
+      z-index: 1;
     }
+    
+    /*Animación del Carrusel*/
     @keyframes slide {
       0% { margin-left: 0; }
       20% { margin-left: 0; }
@@ -191,46 +204,30 @@ body {
       100% { margin-left: 0%; }
     }
 
+    /*Diseño Resposive Carrusel*/
     @media (max-width: 991px) {
-      .slider-box ul {
-        width: 100%;
-      }
-      .slider-box {
-        width: 100%;
-      }
-      .texto {
-        top: 150px;
-      }
-    }
+  .slider-box ul {
+    width: calc(100% * 3); /* Mantener carrusel funcional */
+  }
+  .slider-box img {
+    height: 300px;
+  }
+  .texto {
+    font-size: 20px;
+  }
+}
 
-    @media (max-width: 600px) {
-      .hero h1 {
-        font-size: 40px;
-        margin-bottom: 20px;
-      }
-      .hero ul {
-        flex-direction: column;
-        padding: 20px;
-        gap: 20px;
-      }
-      .contenedor {
-        flex-direction: column;
-        padding: 20px;
-      }
-      .columna {
-        padding: 20px;
-      }
-      .slider-box {
-        width: 100%;
-      }
-      .slider-box img {
-        height: 300px;
-      }
-      .texto {
-        font-size: 24px;
-        top: 100px;
-        padding: 10px;
-      }
-    }
-
+/* Phone */
+@media (max-width: 600px) {
+  .slider-box ul {
+    width: calc(100% * 3);
+  }
+  .slider-box img {
+    height: 200px;
+  }
+  .texto {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
     
