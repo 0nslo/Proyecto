@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../Main.css" />
+    <script></script>
+  </head>
+  <body>
+    <section id="Inicio" class="hero">
+      <div class="content">
+        <h1>ENERGÍA SOLAR</h1>
+        <nav>
+          <ul>
+            <li><a href="../Main.html">Inicio</a></li>
+            <li><a href="../Dashboard.html">Dashboard</a></li>
+            <li><a href="../calculadora.html">Calculadora</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <div>
+      <h2>Gráficos</h2>
+      <a href="graficobarra.html"
+        ><button class="boton graficos">Ver grafico de barra</button></a
+      >
+      <a href="graficotorta.html"
+        ><button class="boton graficos">Ver grafico de torta</button></a
+      >
+    </div>
+    <div class="barra">
+      <canvas id="myChart-barra" ></canvas>
+    </div>
+    <footer>© 2025 Energías Renovables | Hecho con ☀️</footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../graficos/JS/barra.js"></script>
+    
+  </body>
+</html>
