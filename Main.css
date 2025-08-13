@@ -218,6 +218,7 @@ footer {
 }
 
 
+/*Calculadora*/
 #form{
   display: flex;
   flex-direction: column;
@@ -226,6 +227,7 @@ footer {
   gap: 10px;
   height: 300px; 
 }
+
 h2{
   font-size: 30px;
   color: #f39c12;
@@ -248,7 +250,43 @@ h2{
 .barra{
   width: 50%;
 }
+
 .torta{
   width: 50%;
+}
+
+/*Gráficas*/
+#graphics {
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: center;    /* center horizontally */
+  justify-content: center;/* center vertically if div has height */
+  min-height: 200px;    
+  
+}
+
+#graphics h2 {
+  margin-bottom: 30px; /* space between title and buttons */
+  padding: 0;
+}
+
+.boton {
+  border: none; 
+  color: rgb(10, 10, 10); 
+  background-image: linear-gradient(to right, #ca5e16, #f1e756);
+  padding: 24px 40px; 
+  font-size: 1.2rem;
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: inline-block;
+  margin: 20px 40px
+}
+
+.content-graphs h2 {
+  font-size: 44px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #333;
+  padding: 20px; 
+  text-align: center;
 }
     
